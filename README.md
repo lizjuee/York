@@ -3,7 +3,8 @@ the ros package of york agv，include gmapping and navigation
 
 <img src="https://github.com/qq44642754a/mechanical-arm/blob/master/serial_test/media/run_service.png" width="400">
 
-<video src="https://github.com/lizjuee/York/blob/master/media/video1.mp4" width="400">
+You can check the running effect through the following video：
+https://github.com/lizjuee/York/blob/master/media/video1.mp4"
 
 # develop envirenment：
 Ubuntu 18.04 + ros melodic(Jetson Nano) 
