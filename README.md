@@ -1,31 +1,36 @@
 # York
-york小车的ros功能包，包括gmapping扫图和navigation导航
+the ros package of york agv，include gmapping and navigation
 
-# 开发环境：
+<img src="https://github.com/lizjuee/York/blob/master/media/1.jpg" width="600">
+
+You can check the running effect through the following video：
+https://github.com/lizjuee/York/blob/master/media/video1.mp4"
+
+# develop envirenment：
 Ubuntu 18.04 + ros melodic(Jetson Nano) 
 
-# 传感器：
+# sensor：
 
-深度摄像头
+intel realsense d435
 
-# 实验平台：
+# platform：
 
-York 小车
+York agv
 
-# 这个demo一共有三个功能包。分别是：
-1. hexros 小车的ros功能包
-2. rplidar_ros 思岚A1雷达的启动功能包
-3. mbot_navigation 扫图gmapping和导航navigation的功能包
-4. darknet_ros YoloV3的识别功能包
+# three package in this demo：
+1. hexros (rospackage of york agv)
+2. rplidar_ros (launch package of slam A1 lidar)
+3. mbot_navigation ( gmapping and navigation package)
+4. darknet_ros (identify package use YoloV3)
 
-# 指令合集
+# Instruction set
 ```
-1.	roslaunch hexros node_vehicle.launch 启动小车
-2.	roslaunch rplidar rplidar.launch 启动雷达
-3.	roslaunch mbot_navigation gmapping_demo.launch 启动gmapping扫图
-4.	roslaunch mbot_teleop mbot_teleop.launch 键盘控制小车
-5.	rosrun map_server map_saver -f test 保存地图
-6.	roslaunch mbot_navigation nav_cloister_demo.launch 启动导航
-7.	roslaunch realsense2_camera rs_rgbd.launch 打开realsense
-8.	roslaunch darknet_ros darknet_ros.launch 启动darknet_ros
+1.	roslaunch hexros node_vehicle.launch (launch york agv)
+2.	roslaunch rplidar rplidar.launch (launch lidar)
+3.	roslaunch mbot_navigation gmapping_demo.launch (launch gmapping)
+4.	roslaunch mbot_teleop mbot_teleop.launch (control york agv use keyboard)
+5.	rosrun map_server map_saver -f test (save map)
+6.	roslaunch mbot_navigation nav_cloister_demo.launch (launch navigation)
+7.	roslaunch realsense2_camera rs_rgbd.launch (launch realsense)
+8.	roslaunch darknet_ros darknet_ros.launch (launch darknet_ros)
 ```
