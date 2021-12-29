@@ -1,0 +1,7 @@
+<launch>
+ 
+  <node name="node_vehicle" pkg="hexros" type="node_vehicle" output="screen" >
+  </node>
+
+
+</launch>
