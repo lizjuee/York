@@ -1,6 +1,8 @@
 # York
 the ros package of york agv，include gmapping and navigation
 
+https://github.com/lizjuee/York/blob/master/media/video1.mp4
+
 # develop envirenment：
 Ubuntu 18.04 + ros melodic(Jetson Nano) 
 
